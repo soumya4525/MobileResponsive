@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MobileResponsive</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+		.header{
+			height:80px;
+			 width:100%;
+			 background-color: blue; 
+			 color: white;
+		}
+		img{
+			margin-top: 8px; 
+			margin-left: 20px;
+		}
+		.navbar{
+			height:50px; 
+			width:100%; 
+			background: linear-gradient(#0000ff 0%,#000000 100%); 
+			color: white; 
+			margin-top: -20px;
+		}
+		.container{
+padding-top: 500px;
+		}
+		.left{
+			height: 150px; width: 100%; background: radial-gradient(#FFFFFF 0%,#FFA500 100%);
+		}
+		.right{
+			height: 150px; width: 100%; background: radial-gradient(#FFFFFF 0%,#FFA07A 100%); margin-left: 0px;
+		}
+		.container{
+			margin-top: -500px;
+		}
+		.first{
+			margin-top: 0px;
+			margin-left: 0px;
+		}
+		.second{
+			margin-top: 0px;
+			margin-left: 0px;
+		}
+        .footer{
+        	height:20px; width:100%; background-color: black; margin-top: 0px;
+        }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<img src="images/sm1.jpg" height="60px" width="60px">
+	</div>
+	<div class="navbar">
+		<h6 style="margin-left: 0px; padding-top: 15px">HOME</h6>
+		<h6 style="margin-left: 50px; margin-top: -37px">ABOUT US</h6>
+		<h6 style="margin-left: 130px; margin-top: -37px">PRODUCTS</h6>
+		<h6 style="margin-left: 210px; margin-top: -37px">CONTACT US</h6>
+    </div>
+    <div class="container">
+    	<div class="col-6">
+		<div class="left">
+		<h3 style="margin-left: 30px; padding-top: 30px; color: #FF4500">Building your visions
+    Creating reality...</h3>
+    <h5 style="margin-left: 20px; padding-top: -40px; color: black">Benefit of the socie where we operate. A success website obusly needs great design to beone of the top 10.</h5>
+</div>
+	</div>
+	<div class="col-6">
+	<div class="right">
+		<h5 style="margin-left: 20px; padding-top: 50px; color: black">Benefit of the socie where we operate. A success website obusly needs great design to be one of the top 10 IT companies in India 
+but the web design is not enough.</h5>
+	</div>
+</div>
+</div>
+<div class="row" style="margin-left: -40px">
+	<div class="col-6">
+		<div class="first">
+	 <img src="images/abc1.jpg" style="border: 1px solid black; height: auto; width: 100%">
+</div>
+</div>
+<div class="col-6">
+	<div class="second">
+	 <img src="images/abc2.jpg" style="border: 1px solid black; height: auto; width: 100%">
+</div>
+	</div>
+</div>
+<div class="footer">
+		<p style="text-align:center; color: white; font-size: 15px;">2020  ©  S  SOUMYA  ANUPAMA</p>
+	</div> 
+</body>
+</html>
